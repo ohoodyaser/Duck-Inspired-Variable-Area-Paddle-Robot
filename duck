@@ -1,0 +1,6 @@
+
+---
+layout: default
+---
+{% capture content_md %}{% include_relative index.md %}{% endcapture %}
+{{ content_md | markdownify }}
